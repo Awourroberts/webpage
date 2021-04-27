@@ -1,0 +1,29 @@
+.line{
+    background-color:purple;
+    height: 10px;
+}
+.about{
+    margin:  5px;
+    text-align: center;
+    display: inline-block;
+    
+
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row::after{
+    content:  "";
+    display: table;
+    clear: both;
+}
+.about{
+    text-align: center;
+}
+.About{
+    text-align: center;
+}
+q{
+    color: black;
+}
